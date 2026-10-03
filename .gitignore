@@ -1,0 +1,19 @@
+# Munge output and intermediates.
+data/_LVL_PC/*
+!data/_LVL_PC/.gitkeep
+*.lvl
+munged/
+*.log
+MungeLog*
+*.tmp
+
+# wine prefixes / extraction scratch
+.wine/
+prefix/
+
+# Installer payloads
+*.exe
+*.cab
+*.hdr
+
+result
